@@ -1,0 +1,473 @@
+Introduction 
+The term "Artificial Neural Network" is derived from Biological neural networks that develop 
+the structure of a human brain. Similar to the human brain that has neurons interconnected to 
+one another, artificial neural networks also have neurons that are interconnected to one 
+another in various layers of the networks. These neurons are known as nodes.
+
+Dendrites from Biological Neural Network represent inputs in Artificial Neural Networks, cell 
+nucleus represents Nodes, synapse represents Weights, and Axon represents Output.
+
+Relationship between Biological neural network and artificial neural network: 
+Biological Neural Network Artificial Neural Network 
+Dendrites Inputs 
+Cell Nucleus Nodes 
+Synapse Weights 
+Axon Out 
+An Artificial Neural Network in the field of Artificial intelligence where it attempts to mimic the 
+network of neurons makes up a human brain so that computers will have an option to 
+understand things and make decisions in a human-like manner. The artificial neural network is 
+designed by programming computers to behave simply like interconnected brain cells. 
+There are around 1000 billion neurons in the human brain. Each neuron has an association 
+point somewhere in the range of 1,000 and 100,000. In the human brain, data is stored in such 
+a manner as to be distributed, and we can extract more than one piece of this data when 
+necessary from our memory parallelly. We can say that the human brain is made up of 
+incredibly amazing parallel processors. 
+We can understand the artificial neural network with an example, consider an example of a 
+digital logic gate that takes an input and gives an output. "OR" gate, which takes two inputs. If 
+one or both the inputs are "On," then we get "On" in output. If both the inputs are "Off," then 
+we get "Off" in output. Here the output depends upon input. Our brain does not perform the 
+same task. The outputs to inputs relationship keep changing because of the neurons in our 
+brain, which are "learning." 
+The architecture of an artificial neural network: 
+To understand the concept of the architecture of an artificial neural network, we have to 
+understand what a neural network consists of. In order to define a neural network that consists 
+of a large number of artificial neurons, which are termed units arranged in a sequence of layers. 
+Lets us look at various types of layers available in an artificial neural network.
+
+Input Layer:
+As the name suggests, it accepts inputs in several different formats provided by the 
+programmer. 
+Hidden Layer:
+The hidden layer presents in-between input and output layers. It perfo
+to find hidden features and patterns
+Output Layer:
+The input goes through a series of transformations using the hidden layer, which finally results 
+in output that is conveyed using this layer.
+The artificial neural network takes in
+includes a bias. This computation is represented in the form of a transfer function.
+It determines weighted total is passed as an input to an activation function to produce the 
+output. Activation functions choose whether a node should fire or not. Only those who are fired 
+make it to the output layer. There are distinctive activation functions available that can be 
+applied upon the sort of task we are performing.
+tificial Neural Network primarily consists of three layers:
+Fig 3 
+As the name suggests, it accepts inputs in several different formats provided by the 
+between input and output layers. It performs all the calculations 
+to find hidden features and patterns
+The input goes through a series of transformations using the hidden layer, which finally results 
+in output that is conveyed using this layer.
+The artificial neural network takes input and computes the weighted sum of the inputs and 
+includes a bias. This computation is represented in the form of a transfer function.
+It determines weighted total is passed as an input to an activation function to produce the 
+ons choose whether a node should fire or not. Only those who are fired 
+make it to the output layer. There are distinctive activation functions available that can be 
+applied upon the sort of task we are performing.
+As the name suggests, it accepts inputs in several different formats provided by the 
+rms all the calculations 
+The input goes through a series of transformations using the hidden layer, which finally results 
+put and computes the weighted sum of the inputs and 
+includes a bias. This computation is represented in the form of a transfer function.
+It determines weighted total is passed as an input to an activation function to produce the 
+ons choose whether a node should fire or not. Only those who are fired 
+make it to the output layer. There are distinctive activation functions available that can be 
+Advantages of Artificial Neural Network (ANN) 
+Parallel processing capability: 
+Artificial neural networks have a numerical value that can perform more than one task 
+simultaneously. 
+Storing data on the entire network:
+Data that is used in traditional programming is stored on the whole network, not on a database. 
+The disappearance of a couple of pieces of data in one place doesn't prevent the network from 
+working. 
+Capability to work with incomplete knowledge:
+After ANN training, the information may produce output even with inadequate data. The loss of 
+performance here relies upon the significance of missing data. 
+Having a memory distribution: 
+For ANN is to be able to adapt, it is important to determine the examples and to encourage the 
+network according to the desired output by demonstrating these examples to the network. The 
+succession of the network is directly proportional to the chosen instances, and if the event can't 
+appear to the network in all its aspects, it can produce false output. 
+Having fault tolerance:
+Extortion of one or more cells of ANN does not prohibit it from generating output, and this 
+feature makes the network fault-tolerance. 
+Disadvantages of Artificial Neural Network: 
+Assurance of proper network structure:
+There is no particular guideline for determining the structure of artificial neural networks. The 
+appropriate network structure is accomplished through experience, trial, and error. 
+Unrecognized behavior of the network:
+It is the most significant issue of ANN. When ANN produces a testing solution, it does not 
+provide insight concerning why and how. It decreases trust in the network. 
+Hardware dependence:
+Artificial neural networks need processors with parallel processing power, as per their 
+structure. Therefore, the realization of the equipment is dependent.
+Difficulty of showing the issue to the network:
+ANNs can work with numerical data. Problems must be converted into numerical values before 
+being introduced to ANN. The presentation mechanism to be resolved here will directly impact 
+the performance of the network. It relies on th
+The duration of the network is unknown:
+The network is reduced to a specific value of the error, and this value does not give us optimum 
+results. 
+Science artificial neural networks that have steeped into the world in the mid
+exponentially developing. In the present time, we have investigated the pros of artificial neural 
+networks and the issues encountered in the course of their utilization. It should not be 
+overlooked that the cons of ANN networks, which are a flourishi
+eliminated individually, and their pros are increasing day by day. It means that artificial neural 
+networks will turn into an irreplaceable part of our lives progressively important.
+How do artificial neural networks work?
+Artificial Neural Network can be best represented as a weighted directed graph, where the 
+artificial neurons form the nodes. The association between the neurons outputs and neuron 
+inputs can be viewed as the directed edges with weights. The Artificial Neural Network
+the input signal from the external source in the form of a pattern and image in the form of a 
+vector. These inputs are then mathematically assigned by the notations x(n) for every n number 
+of inputs. 
+
+
+Afterward, each of the input is multiplied by its corresponding weights ( these weights are the 
+details utilized by the artificial neural networks to solve a specific problem ). In general terms, 
+these weights normally represent the strength of the interconnection between neurons inside 
+the artificial neural network. All the weighted inputs are summarized inside the computing unit. 
+If the weighted sum is equal to zero, then bias is added to make the output non-zero or 
+something else to scale up to the system's response. Bias has the same input, and weight 
+equals to 1. Here the total of weighted inputs can be in the range of 0 to positive infinity. Here, 
+to keep the response in the limits of the desired value, a certain maximum value is 
+benchmarked, and the total of weighted inputs is passed through the activation function. 
+The activation function refers to the set of transfer functions used to achieve the desired 
+output. There is a different kind of the activation function, but primarily either linear or nonlinear sets of functions. Some of the commonly used sets of activation functions are the Binary, 
+linear, and Tan hyperbolic sigmoidal activation functions. Let us take a look at each of them in 
+details: 
+Types of Artificial Neural Network: 
+There are various types of Artificial Neural Networks (ANN) depending upon the human brain 
+neuron and network functions, an artificial neural network similarly performs tasks. The 
+majority of the artificial neural networks will have some similarities with a more complex 
+biological partner and are very effective at their expected tasks. For example, segmentation or 
+classification. 
+Feedback ANN: 
+In this type of ANN, the output returns into the network to accomplish the best-evolved results 
+internally. As per the University of Massachusetts, Lowell Centre for Atmospheric Research. The 
+feedback networks feed information back into itself and are well suited to solve optimization 
+issues. The Internal system error corrections utilize feedback ANNs. 
+Feed-Forward ANN: 
+A feed-forward network is a basic neural network comprising of an input layer, an output layer, 
+and at least one layer of a neuron. Through assessment of its output by reviewing its input, the 
+intensity of the network can be noticed based on group behavior of the associated neurons, 
+and the output is decided. The primary advantage of this network is that it figures out how to 
+evaluate and recognize input patterns. 
+Perceptron model 
+Perceptron is Machine Learning algorithm for supervised learning of various binary 
+classification tasks. Further, Perceptron is also und
+network unit that helps to detect certain input data computations in business intelligence
+Perceptron model is also treated as one of the best and simplest types of Artificial Neural 
+networks. However, it is a supervised learning algorithm of binary classifiers. Hence, we can 
+consider it as a single-layer neural network with four main parameters, i.e.,
+weights and Bias, net sum, and an activation function.
+Basic Components of Perceptron
+Mr. Frank Rosenblatt invented the perceptron model as a binary classifier which contains three 
+main components.
+
+Input Nodes or Input Layer:
+This is the primary component of Perceptron which accepts the initial data into the system for 
+further processing. Each input node contains a real numerical value.
+o Wight and Bias:
+Weight parameter represents the strength of the connection between units. This is another 
+most important parameter of Perceptron components. Weight is directly proportional to the
+strength of the associated input neuron in deciding the output. Further, Bias can be considered 
+as the line of intercept in a linear equation.
+o Activation Function:
+These are the final and important components that help to determine whether the neuron will
+fire or not. Activation Function can be considered primarily as a step function.
+Types of Activation functions: 
+ Sign function 
+ Step function, and 
+ Sigmoid function 
+Fig 6 
+Input Nodes or Input Layer:
+This is the primary component of Perceptron which accepts the initial data into the system for 
+processing. Each input node contains a real numerical value.
+Weight parameter represents the strength of the connection between units. This is another 
+most important parameter of Perceptron components. Weight is directly proportional to the
+strength of the associated input neuron in deciding the output. Further, Bias can be considered 
+as the line of intercept in a linear equation.
+These are the final and important components that help to determine whether the neuron will
+fire or not. Activation Function can be considered primarily as a step function.
+This is the primary component of Perceptron which accepts the initial data into the system for 
+Weight parameter represents the strength of the connection between units. This is another 
+most important parameter of Perceptron components. Weight is directly proportional to the
+strength of the associated input neuron in deciding the output. Further, Bias can be considered 
+These are the final and important components that help to determine whether the neuron will
+The data scientist uses the activation function to take a subjective decision based on vari
+problem statements and forms the desired outputs. Activation function may differ (e.g., Sign, 
+Step, and Sigmoid) in perceptron models by checking whether the learning process is slow or 
+has vanishing or exploding gradients.
+How does Perceptron work? 
+In Machine Learning, Perceptron is considered as a single
+four main parameters named input values (Input nodes), weights and Bias, net sum, and an 
+activation function. The perceptron model begins with the multiplication 
+their weights, then adds these values together to create the weighted sum. Then this weighted 
+sum is applied to the activation function 'f' to obtain the desired output. This activation 
+function is also known as the step function
+Fig 7 
+The data scientist uses the activation function to take a subjective decision based on vari
+problem statements and forms the desired outputs. Activation function may differ (e.g., Sign, 
+Step, and Sigmoid) in perceptron models by checking whether the learning process is slow or 
+has vanishing or exploding gradients.
+Machine Learning, Perceptron is considered as a single-layer neural network that consists of 
+four main parameters named input values (Input nodes), weights and Bias, net sum, and an 
+activation function. The perceptron model begins with the multiplication of all input values and 
+their weights, then adds these values together to create the weighted sum. Then this weighted 
+sum is applied to the activation function 'f' to obtain the desired output. This activation 
+step function and is represented by 'f'. 
+Fig 8 
+The data scientist uses the activation function to take a subjective decision based on various 
+problem statements and forms the desired outputs. Activation function may differ (e.g., Sign, 
+Step, and Sigmoid) in perceptron models by checking whether the learning process is slow or 
+layer neural network that consists of 
+four main parameters named input values (Input nodes), weights and Bias, net sum, and an 
+of all input values and 
+their weights, then adds these values together to create the weighted sum. Then this weighted 
+sum is applied to the activation function 'f' to obtain the desired output. This activation 
+Perceptron models are divided into two types.
+1. Single-layer Perceptron Model
+2. Multi-layer Perceptron model
+Single Layer Perceptron Model:
+This is one of the easiest Artificial neural networks (ANN) types. A single
+model consists feed-forward network and also includes a threshold transfer function inside the 
+model. The main objective of the single
+separable objects with binary outcomes.
+In a single layer perceptron model, its algorithms do not contain recorded data, so it begins 
+with inconstantly allocated input for weight parameters. Further, it sums up all inputs (weight). 
+After adding all inputs, if the total sum of all inputs is more than a pre
+model gets activated and shows the output value as +1.
+If the outcome is same as premodel is stated as satisfied, and weight demand does not change. However, this model consists 
+of a few discrepancies triggered when multiple weight inputs values are fed into the model. 
+Hence, to find desired output and minimize errors, some changes should be necessary for the 
+weights input. 
+"Single-layer perceptron can learn only linearly separable pattern
+Perceptron models are divided into two types. 
+layer Perceptron Model
+layer Perceptron model
+This is one of the easiest Artificial neural networks (ANN) types. A single-layered perce
+forward network and also includes a threshold transfer function inside the 
+model. The main objective of the single-layer perceptron model is to analyze the linearly 
+separable objects with binary outcomes.
+ron model, its algorithms do not contain recorded data, so it begins 
+with inconstantly allocated input for weight parameters. Further, it sums up all inputs (weight). 
+After adding all inputs, if the total sum of all inputs is more than a pre-determined val
+model gets activated and shows the output value as +1.
+-determined or threshold value, then the performance of this 
+model is stated as satisfied, and weight demand does not change. However, this model consists 
+discrepancies triggered when multiple weight inputs values are fed into the model. 
+Hence, to find desired output and minimize errors, some changes should be necessary for the 
+layer perceptron can learn only linearly separable patterns." 
+Fig 9 
+layered perceptron 
+forward network and also includes a threshold transfer function inside the 
+layer perceptron model is to analyze the linearly 
+ron model, its algorithms do not contain recorded data, so it begins 
+with inconstantly allocated input for weight parameters. Further, it sums up all inputs (weight). 
+determined value, the 
+determined or threshold value, then the performance of this 
+model is stated as satisfied, and weight demand does not change. However, this model consists 
+discrepancies triggered when multiple weight inputs values are fed into the model. 
+Hence, to find desired output and minimize errors, some changes should be necessary for the 
+Multi-Layered Perceptron Model: 
+Like a single-layer perceptron model, a multi-layer perceptron model also has the same model 
+structure but has a greater number of hidden layers. 
+The multi-layer perceptron model is also known as the Backpropagation algorithm, which 
+executes in two stages as follows: 
+o Forward Stage: Activation functions start from the input layer in the forward stage and 
+terminate on the output layer. 
+o Backward Stage: In the backward stage, weight and bias values are modified as per the 
+model's requirement. In this stage, the error between actual output and demanded 
+originated backward on the output layer and ended on the input layer. 
+Hence, a multi-layered perceptron model has considered as multiple artificial neural networks 
+having various layers in which activation function does not remain linear, similar to a single 
+layer perceptron model. Instead of linear, activation function can be executed as sigmoid, TanH, 
+ReLU, etc., for deployment. 
+A multi-layer perceptron model has greater processing power and can process linear and nonlinear patterns. Further, it can also implement logic gates such as AND, OR, XOR, NAND, NOT, 
+XNOR, NOR. 
+Advantages of Multi-Layer Perceptron:
+o A multi-layered perceptron model can be used to solve complex non-linear problems. 
+o It works well with both small and large input data. 
+o It helps us to obtain quick predictions after the training. 
+o It helps to obtain the same accuracy ratio with large as well as small data. 
+Disadvantages of Multi-Layer Perceptron:
+o In Multi-layer perceptron, computations are difficult and time-consuming. 
+o In multi-layer Perceptron, it is difficult to predict how much the dependent variable 
+affects each independent variable. 
+o The model functioning depends on the quality of the training. 
+Supervised and Unsupervised learning 
+Supervised learning is a type of machine learning algorithm that learns from labeled data. 
+Labeled data is data that has been tagged with a correct answer or classification. 
+Supervised learning, as the name indicates, has the prese
+Supervised learning is when we teach or train the machine using data that is well
+Which means some data is already tagged with the correct answer. After that, the machine is 
+provided with a new set of examples(da
+the training data(set of training examples) and produces a correct outcome from labeled data.
+For example, a labeled dataset of images of Elephant, Camel and Cow would have each image 
+tagged with either “Elephant” , “Camel”or “Cow.”
+ Supervised learning involves training a machine from labeled data.
+ Labeled data consists of examples with the correct answer or classification.
+ The machine learns the relationship between inputs (fruit images) and outputs 
+labels). 
+ The trained machine can then make predictions on new,
+Types of Supervised Learning 
+Supervised learning is classified into two categories of algorithms:
+Regression: A regression problem is when the output variable is a real value, such as 
+“dollars” or “weight”. 
+Classification: A classification
+“Red” or “blue”, “disease” or “no disease”.
+Supervised learning, as the name indicates, has the presence of a supervisor as a teacher. 
+Supervised learning is when we teach or train the machine using data that is well
+Which means some data is already tagged with the correct answer. After that, the machine is 
+provided with a new set of examples(data) so that the supervised learning algorithm analyses 
+the training data(set of training examples) and produces a correct outcome from labeled data.
+For example, a labeled dataset of images of Elephant, Camel and Cow would have each image 
+r “Elephant” , “Camel”or “Cow.”
+
+
+Supervised learning deals with or learns with “labeled” data. This implies that some data is 
+already tagged with the correct answer. 
+Regression 
+Regression is a type of supervised learning that is used to predict continuous values, such as 
+house prices, stock prices, or customer churn. Regression algorithms learn a function that maps 
+from the input features to the output value. 
+Some common regression algorithms include: 
+ Linear Regression 
+ Polynomial Regression 
+ Support Vector Machine Regression 
+ Decision Tree Regression 
+ Random Forest Regression 
+Classification 
+Classification is a type of supervised learning that is used to predict categorical values, such as 
+whether a customer will churn or not, whether an email is spam or not, or whether a medical 
+image shows a tumor or not. Classification algorithms learn a function that maps from the input 
+features to a probability distribution over the output classes. 
+Some common classification algorithms include: 
+ Logistic Regression 
+ Support Vector Machines 
+ Decision Trees 
+ Random Forests 
+ Naive Baye 
+Evaluating Supervised Learning Models 
+Evaluating supervised learning models is an important step in ensuring that the model is 
+accurate and generalizable. There are a number of different metrics that can be used to 
+evaluate supervised learning models, but some of the most common ones include: 
+For Regression 
+ Mean Squared Error (MSE): MSE measures the average squared difference between the 
+predicted values and the actual values. Lower MSE values indicate better model 
+performance. 
+ Root Mean Squared Error (RMSE): RMSE is the square root of MSE, representing the 
+standard deviation of the prediction errors. Similar to MSE, lower RMSE values indicate 
+better model performance. 
+ Mean Absolute Error (MAE): MAE measures the average absolute difference between 
+the predicted values and the actual values. It is less sensitive to outliers compared to 
+MSE or RMSE. 
+ R-squared (Coefficient of Determination): R-squared measures the proportion of the 
+variance in the target variable that is explained by the model. Higher R-squared values 
+indicate better model fit. 
+For Classification 
+ Accuracy: Accuracy is the percentage of predictions that the model makes correctly. It is 
+calculated by dividing the number of correct predictions by the total number of 
+predictions. 
+ Precision: Precision is the percentage of positive predictions that the model makes that 
+are actually correct. It is calculated by dividing the number of true positives by the total 
+number of positive predictions. 
+ Recall: Recall is the percentage of all positive examples that the model correctly 
+identifies. It is calculated by dividing the number of true positives by the total number of 
+positive examples. 
+ F1 score: The F1 score is a weighted average of precision and recall. It is calculated by 
+taking the harmonic mean of precision and recall. 
+ Confusion matrix: A confusion matrix is a table that shows the number of predictions for 
+each class, along with the actual class labels. It can be used to visualize the performance 
+of the model and identify areas where the model is struggling. 
+Applications of Supervised learning 
+Supervised learning can be used to solve a wide variety of problems, including: 
+ Spam filtering: Supervised learning algorithms can be trained to identify and classify 
+spam emails based on their content, helping users avoid unwanted messages. 
+ Image classification: Supervised learning can automatically classify images into different 
+categories, such as animals, objects, or scenes, facilitating tasks like image search, 
+content moderation, and image-based product recommendations. 
+ Medical diagnosis: Supervised learning can assist in medical diagnosis by analyzing 
+patient data, such as medical images, test results, and patient history, to identify 
+patterns that suggest specific diseases or conditions. 
+ Fraud detection: Supervised learning models can analyze financial transactions and 
+identify patterns that indicate fraudulent activity, helping financial institutions prevent 
+fraud and protect their customers. 
+ Natural language processing (NLP): Supervised learning plays a crucial role in NLP tasks, 
+including sentiment analysis, machine translation, and text summarization, enabling 
+machines to understand and process human language effectively. 
+Advantages of Supervised learning 
+ Supervised learning allows collecting data and produces data output from previous 
+experiences. 
+ Helps to optimize performance criteria with the help of experience. 
+ Supervised machine learning helps to solve various types of real-world computation 
+problems. 
+ It performs classification and regression tasks. 
+ It allows estimating or mapping the result to a new sample. 
+ We have complete control over choosing the number of classes we want in the training 
+data. 
+Disadvantages of Supervised learning 
+ Classifying big data can be challenging. 
+ Training for supervised learning needs a lot of computation time. So, i
+time. 
+ Supervised learning cannot handle all complex tasks in Machine Learning.
+ Computation time is vast for supervised learning.
+ It requires a labelled data set.
+ It requires a training process.
+Unsupervised Learning 
+Unsupervised learning is a type of machine learning that learns from unlabeled data. This 
+means that the data does not have any pre
+unsupervised learning is to discover patterns and relationships in the data without any explicit 
+guidance. 
+Unsupervised learning is the training of a machine using information that is neither classified 
+nor labeled and allowing the algorithm to act on that information without guidance. Here the 
+task of the machine is to group unsorted information accordi
+differences without any prior training of data.
+Unlike supervised learning, no teacher is provided that means no training will be given to the 
+machine. Therefore the machine is restricted to find the hidden structure in u
+itself. 
+You can use unsupervised learning to examine the animal data that has been gathered and 
+distinguish between several groups according to the traits and actions of the animals. These 
+groupings might correspond to various animal spec
+creatures without depending on labels that already exist.
+Training for supervised learning needs a lot of computation time. So, it requires a lot of 
+Supervised learning cannot handle all complex tasks in Machine Learning.
+Computation time is vast for supervised learning.
+It requires a labelled data set.
+It requires a training process.
+ng is a type of machine learning that learns from unlabeled data. This 
+means that the data does not have any pre-existing labels or categories. The goal of 
+unsupervised learning is to discover patterns and relationships in the data without any explicit 
+Unsupervised learning is the training of a machine using information that is neither classified 
+nor labeled and allowing the algorithm to act on that information without guidance. Here the 
+task of the machine is to group unsorted information according to similarities, patterns, and 
+differences without any prior training of data. 
+Unlike supervised learning, no teacher is provided that means no training will be given to the 
+machine. Therefore the machine is restricted to find the hidden structure in u
+You can use unsupervised learning to examine the animal data that has been gathered and 
+distinguish between several groups according to the traits and actions of the animals. These 
+groupings might correspond to various animal species, providing you to categorize the 
+creatures without depending on labels that already exist.
+Fig 11 
+t requires a lot of 
+Supervised learning cannot handle all complex tasks in Machine Learning.
+ng is a type of machine learning that learns from unlabeled data. This 
+existing labels or categories. The goal of 
+unsupervised learning is to discover patterns and relationships in the data without any explicit 
+Unsupervised learning is the training of a machine using information that is neither classified 
+nor labeled and allowing the algorithm to act on that information without guidance. Here the 
+ng to similarities, patterns, and 
+Unlike supervised learning, no teacher is provided that means no training will be given to the 
+machine. Therefore the machine is restricted to find the hidden structure in unlabeled data by 
+You can use unsupervised learning to examine the animal data that has been gathered and 
+distinguish between several groups according to the traits and actions of the animals. These 
+ies, providing you to categorize the 
+ Unsupervised learning allows the model to discover patterns and relationships in 
+unlabeled data. 
+ Clustering algorithms group similar data points together based on their inherent 
+characteristics. 
+ Feature extraction captures essential information from the data, enabling the model to 
+make meaningful distinctions. 
+ Label association assigns categories to the clusters based on the extracted patterns and 
+characteristics. 
+
+
